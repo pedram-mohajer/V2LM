@@ -119,30 +119,32 @@ PYTHONPATH=$WORKSPACE_DIR python3 $WORKSPACE_DIR/run_inference.py \
 
 ## 📂 File Structure
 
+```plaintext
 ├── LLaVA-13B-LoRA
-│   ├── LICENSE
-│   ├── llava
-│   ├── LLaVA-13-LoRA.sh
-│   ├── predict.py
-│   └── scripts
+│   ├── LICENSE
+│   ├── llava
+│   ├── LLaVA-13-LoRA.sh
+│   ├── predict.py
+│   └── scripts
 ├── LLaVA-7B
-│   ├── LICENSE
-│   ├── llava
-│   ├── LLaVA-7B.sh
-│   ├── predict.py
-│   └── scripts
+│   ├── LICENSE
+│   ├── llava
+│   ├── LLaVA-7B.sh
+│   ├── predict.py
+│   └── scripts
 ├── MobileVLM
-│   ├── LICENSE
-│   ├── mobilevlm
-│   ├── MobileVLM.sh
-│   ├── run_inference.py
-│   └── scripts
+│   ├── LICENSE
+│   ├── mobilevlm
+│   ├── MobileVLM.sh
+│   ├── run_inference.py
+│   └── scripts
 └── MoE-LLaVA
     ├── LICENSE
     ├── moellava
     ├── MoE-LLaVA.sh
     ├── predict.py
     └── scripts
+
 
 
 ## 📊 Training and Evaluation Metrics
@@ -169,17 +171,6 @@ DeepSpeed significantly reduces memory consumption during training. Ensure it is
 - **Use DeepSpeed**: Make sure DeepSpeed is installed to take full advantage of memory optimization.
 - **Experiment with Learning Rates**: Adjust the learning_rate parameter in the scripts based on your dataset size.
 - **Use TensorBoard**: Track training metrics using TensorBoard for real-time monitoring and debugging.
-
----
-
-## 👥 Contributions
-We welcome contributions to improve these scripts or add new features. Feel free to submit a pull request or open an issue for discussion.
-
----
-
-## 📄 License
-This repository is licensed under the MIT License. See the LICENSE file for more details.
-
 ---
 
 By following this guide, you can efficiently fine-tune and infer using the LLaVA, MoE-LLaVA, and MobileVLM models, ensuring optimal performance and accuracy.
