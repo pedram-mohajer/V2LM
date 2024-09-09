@@ -73,8 +73,6 @@ This script fine-tunes the MoE-LLaVA model using DeepSpeed with the Mixture of E
 #### Command Example:
 CUDA_VISIBLE_DEVICES=0 PYTHONPATH=$WORKSPACE_DIR python3 $WORKSPACE_DIR/moellava/train/train_mem.py \
     --moe_enable True \
-    --num_experts 4 \
-    --top_k_experts 2 \
     --model_name_or_path ./checkpoints/MoE-v1.5-7B/ \
     --image_folder IMAGE_DIRECTORY \
     --data_path JSON_FILE_DIRECTORY \
