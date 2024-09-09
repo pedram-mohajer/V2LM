@@ -106,12 +106,6 @@ After fine-tuning the MobileVLM model, this script performs inference on a test 
 - --input-json: Directory containing the test dataset in JSON format.
 - --output-file: File to save the inference results.
 
-#### Command Example:
-PYTHONPATH=$WORKSPACE_DIR python3 $WORKSPACE_DIR/run_inference.py \
-    --model-path OUTPUT_FINE_TUNED \
-    --input-json TEST_JSON_DIRECTORY \
-    --output-file OUTPUT_FILE
-
 ---
 
 ## 📂 File Structure
