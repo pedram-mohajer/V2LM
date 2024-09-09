@@ -12,7 +12,7 @@ This repository contains shell scripts and Python configurations designed for fi
 ## 🛠️ Installation and Setup
 
 1. Clone the repository:
-   git clone https://github.com/your-repo/vision-language-models.git
+   git clone MODEL-REPO
    cd vision-language-models
 
 2. Install required dependencies:
