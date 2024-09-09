@@ -144,7 +144,7 @@ PYTHONPATH=$WORKSPACE_DIR python3 $WORKSPACE_DIR/run_inference.py \
     ├── MoE-LLaVA.sh
     ├── predict.py
     └── scripts
-
+```
 
 
 ## 📊 Training and Evaluation Metrics
