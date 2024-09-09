@@ -119,27 +119,31 @@ PYTHONPATH=$WORKSPACE_DIR python3 $WORKSPACE_DIR/run_inference.py \
 
 ## 📂 File Structure
 
-vision-language-models/
-│
-├── llava/
-│   ├── train/
-│   │   └── train_mem.py       # Training script for LLaVA models
-├── moellava/
-│   ├── train/
-│   │   └── train_mem.py       # Training script for MoE-LLaVA
-│
-├── mobilevlm/
-│   ├── train/
-│   │   └── train_mem.py       # Training script for MobileVLM
-├── run_inference.py           # Script for running inference on fine-tuned models
-├── LLaVA_13B_FINETUNE.sh      # Fine-tuning shell script for LLaVA 13B
-├── LLaVA_7B_FINETUNE.sh       # Fine-tuning shell script for LLaVA 7B
-├── MoE_LLaVA_FINETUNE.sh      # Fine-tuning shell script for MoE-LLaVA
-├── MobileVLM_FINETUNE.sh      # Fine-tuning shell script for MobileVLM
-├── Run_MobileVLM_Inference.sh # Inference shell script for MobileVLM
-├── README.md                  # This README file
+├── LLaVA-13B-LoRA
+│   ├── LICENSE
+│   ├── llava
+│   ├── LLaVA-13-LoRA.sh
+│   ├── predict.py
+│   └── scripts
+├── LLaVA-7B
+│   ├── LICENSE
+│   ├── llava
+│   ├── LLaVA-7B.sh
+│   ├── predict.py
+│   └── scripts
+├── MobileVLM
+│   ├── LICENSE
+│   ├── mobilevlm
+│   ├── MobileVLM.sh
+│   ├── run_inference.py
+│   └── scripts
+└── MoE-LLaVA
+    ├── LICENSE
+    ├── moellava
+    ├── MoE-LLaVA.sh
+    ├── predict.py
+    └── scripts
 
----
 
 ## 📊 Training and Evaluation Metrics
 The training scripts log progress via TensorBoard and W&B for visualization and debugging purposes. You can adjust the logging steps and evaluation strategies by modifying the corresponding arguments in the shell scripts.
