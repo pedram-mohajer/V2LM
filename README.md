@@ -177,6 +177,6 @@ By following this guide, you can efficiently fine-tune and infer using the LLaVA
 
 ---
 
-**Note**: Ensure that you have access to GPUs with adequate memory for fine-tuning large models. 
+**Note**: Ensure that you have access to GPUs with adequate memory for fine-tuning large models.<br>
 **Note**: The models are fine-tuned on an A100 40GB GPU.
  
