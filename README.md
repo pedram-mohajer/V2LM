@@ -99,9 +99,6 @@ CUDA_VISIBLE_DEVICES=0 PYTHONPATH=$WORKSPACE_DIR python3 $WORKSPACE_DIR/mobilevl
     --data_path JSON_FILE_DIRECTORY \
     --output_dir OUTPUT_FINE_TUNED
 
----
-
-### 5️⃣ Inference for MobileVLM (`Run_MobileVLM_Inference.sh`)
 After fine-tuning the MobileVLM model, this script performs inference on a test dataset and outputs the results.
 
 #### Arguments Overview:
