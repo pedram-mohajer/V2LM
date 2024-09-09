@@ -75,7 +75,7 @@ CUDA_VISIBLE_DEVICES=0 PYTHONPATH=$WORKSPACE_DIR python3 $WORKSPACE_DIR/moellava
     --moe_enable True \
     --num_experts 4 \
     --top_k_experts 2 \
-    --model_name_or_path ./checkpoints/llava-v1.5-7B/ \
+    --model_name_or_path ./checkpoints/MoE-v1.5-7B/ \
     --image_folder IMAGE_DIRECTORY \
     --data_path JSON_FILE_DIRECTORY \
     --output_dir OUTPUT_FINE_TUNED
