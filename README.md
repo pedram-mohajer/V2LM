@@ -13,7 +13,7 @@ This repository contains shell scripts and Python configurations designed for fi
 
 1. Clone the repository:
    git clone MODEL-REPO
-   cd vision-language-models
+   cd MODEL-REPO
 
 2. Install required dependencies:
    pip install -r requirements.txt
