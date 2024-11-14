@@ -1,4 +1,4 @@
-# Vision-Language Model Fine-Tuning and Inference
+# Visual Language Model Fine-Tuning and Inference
 
 ## 🚀 Overview
 This repository contains shell scripts and Python configurations designed for fine-tuning and performing inference for the following vision-language models:
