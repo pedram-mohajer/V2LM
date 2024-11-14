@@ -136,7 +136,7 @@ After fine-tuning the MobileVLM model, this script performs inference on a test 
 ├── Sample
 │   ├── DRP-Attack
 │   ├── RAUCA
-│   ├── Shadow-Attack
+│   └── Shadow-Attack
 
 ```
 
