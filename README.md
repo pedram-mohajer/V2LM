@@ -178,6 +178,7 @@ This script performs **end-to-end fine-tuning and evaluation** of the NVILA-Lite
 
 
 ---
+```
 
 ## 📊 Training and Evaluation Metrics
 Training scripts log progress via TensorBoard and W&B for visualization and debugging purposes. Modify logging steps and evaluation strategies as needed.
