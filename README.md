@@ -5,6 +5,7 @@ This repository contains shell scripts and Python configurations designed for fi
 - MoE-LLaVA
 - MobileVLM
 - Qwen-VL
+- NVILA
 
 ---
 
@@ -127,10 +128,24 @@ CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 2 --nnodes 1 --node_rank 0 $WOR
     --deepspeed ./finetune/ds_config_zero3.json
 ```
 
+
+### 6️⃣ NVILA-Lite-8B Fine-Tuning and Evaluation (`NVILA.sh`)  
+This script performs **end-to-end fine-tuning and evaluation** of the NVILA-Lite-8B model using DeepSpeed and `vila-infer`. It supports both training and inference in one unified workflow.
+
+#### Arguments Overview:  
+- `STAGE_PATH`: Path to the pre-trained NVILA-Lite-8B model (default: `Efficient-Large-Model/NVILA-Lite-8B`).  
+- `DATA_MIXTURE`: Name of the training dataset or mixture.  
+- `OUTPUT_DIR`: Directory where the fine-tuned model and logs will be saved.  
+
+#### Command Example:  
+```bash
+bash NVILA.sh Efficient-Large-Model/NVILA-Lite-8B your_dataset_name your_output_dir
+
+
+
 ---
 
 ## 📚 File Structure
-```plaintext
 ├── LLaVA-13B-LoRA
 │   ├── LICENSE
 │   ├── llava
@@ -155,11 +170,16 @@ CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 2 --nnodes 1 --node_rank 0 $WOR
 │   ├── LICENSE
 │   ├── Qwen-VL.sh
 │   └── finetune
+├── NVILA
+│   ├── LICENSE
+│   ├── NVILA.sh
+│   ├── scripts
+│   └── llava
 ├── Sample
 │   ├── DRP-Attack
 │   ├── RAUCA
 │   └── Shadow-Attack
-```
+
 
 ---
 
@@ -181,5 +201,6 @@ By following this guide, you can efficiently fine-tune and infer using the LLaVA
 
 
 **Note**: Ensure that you have access to GPUs with adequate memory for fine-tuning large models.<br>
-**Note**: The models are fine-tuned on an A100 40GB GPU, except for Qwen-VL, which is fine-tuned on 2×A100 80GB GPUs.
+**Note**: The models are fine-tuned on an A100 40GB GPU, except for Qwen-VL (2×A100 80GB GPUs) and NVILA (4×A100 40GB GPUs).
+
  
