@@ -8,7 +8,7 @@ This repository contains shell scripts and Python configurations designed for fi
 - NVILA
 
 
-This work was Accepted to the [2026 IEEE Intelligent Vehicles Symposium (IV 2026)](https://arxiv.org/abs/2506.11472).
+This work was Accepted at the [2026 IEEE Intelligent Vehicles Symposium (IV 2026)](https://arxiv.org/abs/2506.11472).
 
 
 ---
