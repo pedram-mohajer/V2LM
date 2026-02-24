@@ -7,6 +7,10 @@ This repository contains shell scripts and Python configurations designed for fi
 - Qwen-VL
 - NVILA
 
+
+This work was Accepted to the [2026 IEEE Intelligent Vehicles Symposium (IV 2026)](https://arxiv.org/abs/2506.11472).
+
+
 ---
 
 ## 🛠️ Installation and Setup
