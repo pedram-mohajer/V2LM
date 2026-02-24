@@ -1,4 +1,4 @@
-## 🚀 Vision Language Models are Inherently Robust to Visual Perception Attacks in Autonomous Driving
+## 🚀 Toward Inherently Robust VLMs Against Visual Perception Attacks
 This repository contains shell scripts and Python configurations designed for fine-tuning and performing inference for the following vision-language models:
 - LLaVA-13B-LoRA
 - LLaVA-7B
