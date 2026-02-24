@@ -139,10 +139,6 @@ This script performs **end-to-end fine-tuning and evaluation** of the NVILA-Lite
 
 #### Command Example:  
 ```bash
-bash NVILA.sh Efficient-Large-Model/NVILA-Lite-8B your_dataset_name your_output_dir
-
-
-
 ---
 
 ## 📚 File Structure
